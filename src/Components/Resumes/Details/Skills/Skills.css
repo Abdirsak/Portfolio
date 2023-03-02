@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skills{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.compound{
+    margin: 30px 0;
+}
+.compound li{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.js-orange,.html-orange,.css-orange,.react-orange,.node-orange,.j-orange,.c-orange,.php-orange{
+    width: 250px;
+    height: 20px;
+    background-color: orangered;
+}
+.js-blue{
+    width: 200px;
+    height: 20px;
+    background-color: #063970;
+}
+.html-blue{
+    width: 230px;
+    height: 20px;
+    background-color: #063970;
+}
+.css-blue{
+    width: 210px;
+    height: 20px;
+    background-color: #063970;
+}
+.react-blue{
+    width: 180px;
+    height: 20px;
+    background-color: #063970;
+}
+.node-blue{
+    width: 140px;
+    height: 20px;
+    background-color: #063970;
+}
+.php-blue{
+    width: 180px;
+    height: 20px;
+    background-color: #063970;
+}
+.c-blue{
+    width: 130px;
+    height: 20px;
+    background-color: #063970;
+}
+.j-blue{
+    width: 160px;
+    height: 20px;
+    background-color: #063970;
+}

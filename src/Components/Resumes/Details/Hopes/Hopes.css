@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hopes{
+    margin-top: 20px;
+}
+.hopes ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+.hopes ul li div h3{
+    color: orangered;
+}
+.hopes ul li div h3:before {
+    content: "•";
+    font-size: 240%;
+    padding-right: 25px;
+    margin-left: -60px;
+ }

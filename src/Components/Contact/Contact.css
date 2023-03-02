@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contacts{
+    
+}
+.contact-body{
+    background-color: #072546;
+    color: white;
+    margin: 40px 120px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.side{
+    width: 60%;
+}
+.side h1{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.social{
+    margin-left: 0;
+    margin-top: 25px;
+}
+.social a{
+    font-size: 20px;
+    margin: 0 15px;
+}
+.side p{
+    margin-top: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(209, 205, 205);
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    margin-left: 10px;
+}
+.side img{
+    margin-left: 10px;
+    width: 95%;
+    height: 35vh;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.form-part{
+    background: rgb(231, 227, 227);
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 80px;
+    width: 50%;
+}
+.form-part form label{
+    color: black;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+.form-part form input,.form-part form textarea{
+    width: 95%;
+    margin: 10px 0;
+    font-size: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(212, 211, 211);
+}
+.form-part form .button{
+    color: white;
+    background-color: #072546;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px 50px;
+    width: 30%;
+    cursor: pointer;
+}

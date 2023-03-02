@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: #063970;
+    color: white;
+    margin-top: 60px;
+    padding: 20px 10px;
+}
+.footer h2{
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+.footer span{
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}

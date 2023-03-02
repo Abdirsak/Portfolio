@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home{
+    position:unset;
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+}
+.contents{
+    margin-top: 200px;
+    margin-left: 120px;
+    width: 680px;
+}
+.header{
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 70px;
+}
+.special{
+    color: orangered;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Tilt Neon', cursive;
+    color: #063970;
+    font-size: 65px;
+    font-weight: bolder;
+}
+.body{
+    margin-bottom: 30px;
+}
+.buttons{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.buttons a{
+    text-decoration: none;
+    color: #063970;
+    border: 2px solid #063970;
+    border-radius: 10px;
+    padding: 10px 55px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.buttons a:hover{
+    background-color: #063970;
+    color: white;
+}
+.buttons button{
+    margin-left: 65px;
+    padding: 10px 25px;
+    color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: .5s;
+}
+.buttons button:hover{
+    background-color: white;
+    color: orangered;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    margin-top: 160px;
+    border: 8px solid #063970;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+.image:hover{
+    width: 420px;
+    height: 420px;
+}
+.image:hover img{
+    width: 405px;
+    height: 405px;
+}
+.image img{
+    width: 385px;
+    height: 385px;
+    border-radius: 50%;
+    transition: .5s;
+}
